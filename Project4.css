@@ -36,13 +36,22 @@
   display: inline-block;
   width: 25%;
 }
+.responsive {
+  width: 100%;
+  height: auto;
+}
 #background{
     background-image:src ;
 }
 #header{text-align: center;}
-#mobile_menu_toggle{
-  background-image: url(circle.png);
+@media only screen and (max-width: 768px){
+  .page-width {
+    width: 768px;
+  }
+  .col-1{width: 100%;}
+  .col-2{width: 100%;}
 }
+.size1{width: 300px;}
 .content{text-align: left;}
 .custom-background{
   background-image: url(http://viviandiary.net/wp-content/themes/beautiful-watercolor/images/bg-paper-tile.jpg);

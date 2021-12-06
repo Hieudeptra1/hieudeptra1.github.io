@@ -43,23 +43,6 @@
 #mobile_menu_toggle{
   background-image: url(circle.png);
 }
-@media only screen and (max-width: 768px){
-  .aaa{display: none;}
-  .asd{display: none;}
-}
-@media only screen and (max-width: 768px){
-  #moblie_menu_toggle{
-    display: block;
-    width: 48px;
-    height: 45px;
-    position: absolute;
-    left: 10px;
-    top: 50px;
-    cursor: pointer;
-    background-repeat: no-repeat;
-    background-size: 100% 100%;
-  }
-}
 .content{text-align: left;}
 .custom-background{
   background-image: url(http://viviandiary.net/wp-content/themes/beautiful-watercolor/images/bg-paper-tile.jpg);

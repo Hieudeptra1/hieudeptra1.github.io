@@ -76,6 +76,7 @@
   .page-width {
     width: 768px;
   }
+  #header{text-align: none;}
   .col-1{width: 100%;}
   .col-2{width: 100%;}
 }

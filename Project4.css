@@ -5,7 +5,7 @@
   div {
     display: block;
 }
-  li {
+  li.go-menu {
     list-style-type: none;
     display: inline;
     padding-left: 5%;
@@ -61,4 +61,6 @@
   }
 }
 .content{text-align: left;}
-.content_wrap{text-align: center;}
+.custom-background{
+  background-image: url(http://viviandiary.net/wp-content/themes/beautiful-watercolor/images/bg-paper-tile.jpg);
+}

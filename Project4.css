@@ -65,7 +65,11 @@
 }
 .col-1 {
   display: inline-block;
-  width: 26%;
+  width: 33%;
+}
+img {
+  padding: 1%;
+  width: 100%;
 }
 .responsive {
   width: 40%;
@@ -79,8 +83,14 @@
   .page-width {
     width: 768px;
   }
-  .col-1{width: 100%;}
-  .col-2{width: 100%;}
+  [class*="col-"] {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 991px){
+  .page-width {
+    width: 991px;
+  }
 }
 .size1{width: 300px;}
 .content{text-align: left;}
